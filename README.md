@@ -23,7 +23,7 @@ The Stator part consists of many coils of copper wire, grouped in groups of thre
 
 The solution here is to replace the permanent magnet in the shaft with an electromagnet (another copper wire coil :D). When an electrical current passes through a coil, a magnetic field is born, just like a permanent magnet. This magnetic field is proportional to the curret and to the number of loops the coil has. To "inject" an electrical current from the outside into a spining thing, carbon brushes are used (like in some other machines like motors).
 
-
+[WIP]
 
 
 
