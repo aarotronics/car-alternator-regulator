@@ -23,15 +23,17 @@ The Stator part consists of many coils of copper wire, grouped in groups of thre
 
 The solution here is to replace the permanent magnet in the shaft with an electromagnet (yes, another copper wire coil :D). When electric current passes through a coil, a magnetic field is born, just like a permanent magnet. This magnetic field is proportional to the curret and to the number of loops the coil has. To "inject" an electrical current from the outside into a spining thing, carbon brushes are used (like in some other machines like motors).
 
-As the induced current depends on the strengh of the magnet moving around, we can control how much electricity alternator will generate simply by controlling the current passing through the rotor coil. The coils in the stator are grouped in groups of three because this is the most effective way to collect the induced energy. This is called a 3-phase system and it is used all over the world to produce electricity for our lives.
+As the induced current depends on the strengh of the magnet moving around, we can control how much electricity the alternator will generate, simply by controlling the current passing through the rotor coil. The coils in the stator are grouped in groups of three because this is the most effective way to collect the induced energy. This is called a 3-phase system and it's used all over the world to produce the electricity we use in our lives.
 
-But there's a problem, the induced current in the stator is an alternative 3-phase current (just 3 sine waves, 120º out of phase one each other) and our battery and electric system in the car works with DC (direct current, wont change through time). To convert from AC to DC a rectifier is needed, and becasue this is a 3-phase system, the rectifier will consist of 6 silicon diodes. This diodes are built-in inside the alternator, directly connected to the stator coils.
+But there's one thing, the induced current in the stator is an alternative AC 3-phase current (just 3 sine waves, 120º out of phase one each other, that goes positive and negative and current moving one way and another) and our battery and electric system in the car works with DC (direct current, wont change through time). To convert from AC to DC a rectifier is needed, and becasue this is a 3-phase system, the rectifier will consist of 6 silicon diodes. This diodes are built-in inside the alternator, directly connected to the stator coils.
 
-The negative output of the rectifier is connected directly to the alternator case and so to the metal structure of the vehicle as this is the Electric Ground (It's just like the 0V reference)
+The negative output of the rectifier is connected directly to the alternator case and so to the metal structure of the vehicle as this is the electric ground, for now on GND (it's the 0V reference)
 
-The positive output of the rectifier is connected to two terminals marked as BAT+ (Output positive to Battery) and D+ (in some cases, D+ will have a dedicated rectifier, but this doesn't change so much)
+The positive output of the rectifier is connected to two terminals marked as BAT+ (Output positive to Battery) and D+ (in some cases, D+ will have a dedicated rectifier, but this doesn't change so much at the end)
 
-One terminal of the rotor coil is connected directly to the case of the alternator (electric ground) and the other is connected to a terminal marked as DF (Field).
+One terminal of the rotor coil is connected through one of the brushes to the case of the alternator (electric ground) and the other is connected to a terminal marked as DF (Field) through the other brush.
+
+If we apply a voltage between DF and GND, current will flow through the rotor coil and it will generate a magnetic field. Now if we spin the rotor, the stator coils will "see" the changing magnetic field of the rotor and current will be induced. The rectifier will convert the alternative current into direct current and a voltage will appear between BAT+ / D+ and GND
 
 [WIP]
 
