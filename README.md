@@ -40,7 +40,7 @@ electric energy.
 
 To produce electricity mechanically, we need to "pump" electrons through an
 electrical circuit (some close loop of conductors and other stuff). This is
-done using some "black magic" of how our universe works:
+done using some "black magic" our universe offers us:
 **The Faraday's Law of Electromagnetic Induction**.
 
 We will take a piece of wire (a good conductor, so electrons will be happy
