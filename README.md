@@ -45,11 +45,11 @@ done using some "black magic" our universe offers us:
 
 We will take a piece of wire (a good conductor, so electrons will be happy
 moving around :D) and make a loop with it. Take a magnet and move it close
-up to the loop, while the magnet is moving the magnetic field will change
+up to the loop. While the magnet is moving, the magnetic field will change
 inside the loop and this will induce an electric current into it. But as
 soon as we stop moving the magnet, the current in the loop will disappear.
 Now, as we move the magnet far away from the loop, the magnetic field will
-change in the oposite way and the electric current will induce in the other
+change in the oposite way so the electric current will induce in the other
 way as well.
 
 In a nutshell, current will be induced **only** while the magnetic field is in
@@ -60,8 +60,8 @@ field. The induced current also depends directly on the strenght of the
 magnet.
 
 The stator part consists of many coils of copper wire, grouped in groups of
-three (We'll see why below). If we put a magnet in the alternator's shaft we
-will have a system that produces electricity when it rotates. But this is not
+three (we'll see why below). If we put a magnet in the alternator's shaft
+we'll have a system that produces electricity when it rotates. But this is not
 the most effective generator out there, and also it has a lot of disadvantages:
 using permanent magnets is not a good idea as it will lose magnetic strength by
 the time; also it will produce higher voltages as it turns faster and faster,
